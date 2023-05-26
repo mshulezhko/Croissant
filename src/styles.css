@@ -1,0 +1,43 @@
+:root {
+    --border-style: 1px solid blueviolet;
+    --main-color: blueviolet;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: var(--main-color);
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    max-width: 690px;
+    margin: 40px auto;
+    border: var(--border-style);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin: 10px;
+    border: var(--border-style);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--main-color);
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+}
